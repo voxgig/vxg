@@ -1,0 +1,9 @@
+{
+  "name": "vxg",
+  "version": "0.0.1",
+  "description": "Voxgig Content Components",
+  "main": "index.js",
+  "repository": "git@github.com:voxgig/vxg.git",
+  "author": "rjrodger <richard@ricebridge.com>",
+  "license": "MIT"
+}
