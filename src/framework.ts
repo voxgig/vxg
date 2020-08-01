@@ -22,21 +22,24 @@ export default class Vxg {
 
   static install = install
 
-  /*
+
   static installed = false
- 
-  static version = __VXG_VERSION__
- 
+
+  // static version = __VXG_VERSION__
+
   static config = {
     silent: false,
   }
- 
+
+  /*
   public framework: Dictionary<VxgServiceContract> = {
     isHydrating: false,
   } as any
- 
+  */
+
   public installed: string[] = []
- 
+
+  /*
   public preset = {} as VxgPreset
  
   public userPreset: UserVxgPreset = {}
@@ -52,11 +55,14 @@ export default class Vxg {
     this.use(services.Lang)
     this.use(services.Theme)
   }
- 
+  */
+
   // Called on the new vuetify instance
   // bootstrap in install beforeCreate
   // Exposes ssrContext if available
   init(root: Vue, ssrContext?: object) {
+
+    /*
     this.installed.forEach(property => {
       const service = this.framework[property]
  
@@ -64,22 +70,24 @@ export default class Vxg {
  
       service.init(root, ssrContext)
     })
- 
+    
     // rtl is not installed and
     // will never be called by
     // the init process
     this.framework.rtl = Boolean(this.preset.rtl) as any
+    */
   }
- 
+
+  /*
   // Instantiate a VxgService
   use(Service: VxgService) {
     const property = Service.property
- 
+
     if (this.installed.includes(property)) return
- 
+
     // TODO maybe a specific type for arg 2?
     this.framework[property] = new Service(this.preset, this as any)
     this.installed.push(property)
   }
-*/
+  */
 }
