@@ -18,4 +18,6 @@
   * https://vuejs.github.io/vetur/ - VS Code
   * web-types: https://github.com/JetBrains/web-types
   
- 
+* eslint
+  * rules will not update if cache not cleared
+    * packages/vuetify/node_modules/.cache

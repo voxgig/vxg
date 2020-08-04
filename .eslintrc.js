@@ -43,14 +43,16 @@ module.exports = {
     'no-empty': 'error',
     'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
-    'space-before-function-paren': [
+
+    
+    'space-before-function-paren': 'off' /*[
       'error',
       {
         anonymous: 'always',
         named: 'always',
         asyncArrow: 'always'
       }
-    ],
+    ]*/,
     'no-return-await': 'warn',
     'object-shorthand': ['error', 'always'],
     'no-extra-semi': 'error',
@@ -65,7 +67,7 @@ module.exports = {
     'vue/require-default-prop': 'off',
     'vue/require-prop-types': 'off',
     'vue/prop-name-casing': 'error',
-    'vue/return-in-computed-property': 'off'
+    'vue/return-in-computed-property': 'off',
   },
   overrides: [
     {
@@ -96,7 +98,9 @@ module.exports = {
 
         // 'vuetify/grid-unknown-attributes': 'error',
         // 'vuetify/no-legacy-grid': 'error',
-        'vuetify/no-deprecated-classes': 'error'
+        'vuetify/no-deprecated-classes': 'error',
+
+        'space-before-function-paren': 'off'
       }
     },
     {
@@ -123,7 +127,9 @@ module.exports = {
           }
         }],
         '@typescript-eslint/member-ordering': 'error',
-        '@typescript-eslint/type-annotation-spacing': 'error'
+        '@typescript-eslint/type-annotation-spacing': 'error',
+
+        'space-before-function-paren': 'off'
       }
     }
   ]

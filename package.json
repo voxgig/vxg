@@ -29,6 +29,8 @@
     "@babel/helper-create-regexp-features-plugin": "^7.8.8",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.1.2",
     "babel-jest": "^24.8.0",
     "cross-spawn": "^6.0.5",
     "eslint": "^6.6.0",
